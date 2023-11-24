@@ -24,6 +24,9 @@ p {
 img {
 	max-width: 100%;
 }
+button {
+	cursor: pointer;
+}
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1rem;
@@ -67,6 +70,8 @@ header {
 
 .hero {
 	background-image: url('../images/banner.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
 	padding: 12rem 2.5rem;
 
 	.mw-wrapper {
@@ -94,8 +99,8 @@ header {
 		border: none;
 		color: #fff;
 		text-transform: uppercase;
-		font-size: 1.2rem;
-		padding: 0.6rem 2.3rem;
+		font-size: 1rem;
+		padding: 0.2rem 2rem;
 		font-weight: 700;
 	}
 }
@@ -143,7 +148,7 @@ header {
 }
 .related {
 	.mw-wrapper {
-		max-width: 90%;
+		max-width: 1325px;
 	}
 	.card {
 		border: 2px solid #dee1e3;

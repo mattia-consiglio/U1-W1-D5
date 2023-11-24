@@ -21,6 +21,9 @@ p {
 img {
 	max-width: 100%;
 }
+button {
+	cursor: pointer;
+}
 body {
 	font-family: 'Open Sans', sans-serif;
 	text-align: center;
@@ -41,6 +44,8 @@ header {
 .hero {
 	background-image: url('../images/banner.jpg');
 	padding: 3.8rem 2.5rem;
+	background-size: cover;
+	background-repeat: no-repeat;
 
 	h1 {
 		font-size: 3em;
