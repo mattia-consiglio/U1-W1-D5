@@ -1,0 +1,196 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+:root {
+  --col-margin: 1rem;
+}
+
+h1,
+h2,
+h3 {
+  color: #25a2c3;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  line-height: 1.5rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.7rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-align: center;
+}
+
+header {
+  background-color: #000;
+  padding: 2rem 3rem;
+}
+header img {
+  display: block;
+  width: 190px;
+}
+
+.mw-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.mw-wrapper::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.col {
+  float: left;
+  --col-width: 100%;
+  max-width: calc(var(--col-width) - var(--col-margin) * 2);
+  margin: 0 var(--col-margin);
+}
+
+.col-one-second {
+  --col-width: 50%;
+}
+
+.col-one-third {
+  --col-width: 33.33333333333%;
+}
+
+.hero {
+  background-image: url("../images/banner.jpg");
+  padding: 12rem 2.5rem;
+}
+.hero .mw-wrapper {
+  max-width: 800px;
+}
+.hero h1 {
+  font-size: 2em;
+  margin-bottom: 2rem;
+  line-height: initial;
+}
+.hero p,
+.hero button {
+  line-height: 2.5rem;
+}
+.hero p {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+.hero button {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f04c2f;
+  border-radius: 0.5rem;
+  border: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  padding: 0.6rem 2.3rem;
+  font-weight: 700;
+}
+
+.main,
+.related {
+  padding: 5rem 0;
+}
+
+.main {
+  text-align: left;
+  padding: 8rem 0;
+}
+.main .wrapper {
+  margin-bottom: 2rem;
+}
+.main .wrapper img {
+  border-radius: 50%;
+}
+
+.citation {
+  background-color: #f04c2f;
+  color: #fff;
+  padding: 5rem 0;
+}
+.citation h2 {
+  color: #fff;
+  font-size: 2em;
+  margin-bottom: 2rem;
+  line-height: initial;
+}
+.citation blockquote {
+  font-style: italic;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+.citation cite {
+  font-size: 0.85em;
+}
+.citation cite > .name {
+  font-size: 1.4em;
+  margin-bottom: 0.8rem;
+}
+
+.related .mw-wrapper {
+  max-width: 90%;
+}
+.related .card {
+  border: 2px solid #dee1e3;
+  margin-bottom: 2rem;
+  height: 440px;
+}
+.related .card .img {
+  height: 300px;
+}
+.related .card .img img {
+  max-width: initial;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.related .card .content {
+  padding: 2rem 1rem;
+}
+
+footer {
+  background-color: #25a2c3;
+  padding: 3.8rem 2rem;
+  text-align: left;
+}
+footer .mw-wrapper {
+  max-width: 300px;
+}
+footer,
+footer a {
+  color: rgba(255, 255, 255, 0.85);
+}
+footer p,
+footer a {
+  font-size: 1.15em;
+}
+footer h3 {
+  color: #fff;
+  font-size: 3.3rem;
+  margin-bottom: 3rem;
+  line-height: 3rem;
+}
+footer hr {
+  margin: 2.5rem auto;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.85);
+}
+footer p:last-of-type {
+  text-align: center;
+}/*# sourceMappingURL=style-desktop.css.map */
